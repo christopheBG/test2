@@ -10,4 +10,8 @@ public class MonTest {
         assertEquals(1, new MaClasse().maMethode());
     }
 
+    @Test
+    public void monDeuxiemeTest() {
+        assertEquals(2, new MaClasse().maMethode());
+    }
 }
