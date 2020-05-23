@@ -7,11 +7,11 @@ public class MonTest {
 
     @Test
     public void monPremierTest() {
-        assertEquals(1, new MaClasse().maMethode());
+        assertEquals(1, new MaClasse().maMethode(1));
     }
 
     @Test
     public void monDeuxiemeTest() {
-        assertEquals(2, new MaClasse().maMethode());
+        assertEquals(2, new MaClasse().maMethode(2));
     }
 }
